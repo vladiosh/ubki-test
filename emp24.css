@@ -36,8 +36,9 @@ body {
   padding: 15px;
 }
 
+
 .dr_container {
-  width: 1050px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 40px;
   background-color: #ffffff;
@@ -94,7 +95,6 @@ body {
   font-weight: 400;
   font-size: 18px;
 
-
   transition: color 250ms var(--time-function);
 }
 
@@ -121,6 +121,10 @@ body {
 .dr_nav-icon {
   margin-right: 5px;
   fill: currentColor;
+}
+
+@media (max-width: 650px) {
+ 
 }
 
 /* //////////////////////////////////////////////////////////////////////// */

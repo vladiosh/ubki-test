@@ -32,9 +32,8 @@ img {
 
 body {
   background-color: #e5e5e5;
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
+  font-family: "Open Sans";
+  padding: 15px;
 }
 
 .dr_container {
@@ -79,37 +78,47 @@ body {
   padding: 5px;
 }
 
-.dr_contacts-nav {
+.dr_nav {
   display: flex;
   align-items: center;
 }
 
-.dr_contacts-nav-item:not(:last-child) {
-  margin-right: 40px;
+.dr_nav-item {
+  display: flex;
+  align-items: center;
 }
 
-.dr_contacts-nav .link {
+.dr_nav-text {
   color: #5bb449;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 18px;
+
 
   transition: color 250ms var(--time-function);
 }
 
-.dr_contacts-nav .link:hover,
-.dr_contacts-nav .link:focus {
-  color: var(--accent-first-color);
+.dr_nav .link:hover,
+.dr_nav .link:focus {
+  text-decoration: none;
 }
 
-.dr_icon-text {
+.dr_nav-item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 30px;
+  background-color: #757575;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dr_nav-icon-position {
   display: flex;
   align-items: center;
 }
 
-.header-second-icon {
+.dr_nav-icon {
   margin-right: 5px;
   fill: currentColor;
 }

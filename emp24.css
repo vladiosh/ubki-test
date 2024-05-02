@@ -126,6 +126,33 @@ body {
   fill: currentColor;
 }
 
+/* ----------------------hero-------------------- */
+
+.dr_hero {
+  padding: 0px 200px 80px 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dr_hero-title {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dr_hero-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dr_hero-text--2{
+ display: none;
+ color: #000000;
+}
+
 @media (max-width: 650px) {
   body {
     padding: 75px 15px;
@@ -148,7 +175,7 @@ body {
 
   .dr_header {
     justify-content: center;
-    padding: 35px;
+    padding: 20px;
     box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
 
@@ -159,6 +186,35 @@ body {
   .dr_nav-item:not(:last-child)::after {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .dr_hero {
+    padding: 50px 25px;
+  }
+
+  .dr_hero-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .dr_hero-text {
+    display: none;
+  }
+
+
+  .dr_hero-text--2{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 315px;
+    text-align: center;
+    color: #000000;
+
+  }
+
+  .dr_hero-img {
+    display: none;
   }
 }
 

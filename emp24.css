@@ -36,13 +36,15 @@ body {
   padding: 15px;
 }
 
+.dr_logo-box {
+  display: none;
+}
 
 .dr_container {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 40px;
+
   background-color: #ffffff;
-  outline: 1px solid red;
   border-radius: 3px;
 }
 
@@ -73,6 +75,7 @@ body {
 .dr_header {
   display: flex;
   justify-content: space-between;
+  padding: 40px;
 }
 
 .dr_header-logo {
@@ -124,7 +127,29 @@ body {
 }
 
 @media (max-width: 650px) {
- 
+  body {
+    padding: 75px 15px;
+  }
+
+  .dr_logo-box {
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px 15px 15px;
+  }
+
+  .dr_header-logo {
+    display: none;
+  }
+
+  .dr_container {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .dr_header {
+    justify-content: center;
+    padding: 35px;
+  }
 }
 
 /* //////////////////////////////////////////////////////////////////////// */

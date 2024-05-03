@@ -143,14 +143,16 @@ body {
   text-align: center;
 }
 
-.dr_hero-text {
+.dr_hero-text-desk {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.dr_hero-text--2{
- display: none;
- color: #000000;
+.dr_hero-text-mob {
+  display: none;
+  color: #000000;
 }
 
 @media (max-width: 650px) {
@@ -198,19 +200,17 @@ body {
     margin-bottom: 10px;
   }
 
-  .dr_hero-text {
+  .dr_hero-text-desk {
     display: none;
   }
 
-
-  .dr_hero-text--2{
+  .dr_hero-text-mob {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     max-width: 315px;
     text-align: center;
     color: #000000;
-
   }
 
   .dr_hero-img {

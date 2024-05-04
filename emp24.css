@@ -157,23 +157,65 @@ body {
 /* --------------------------------services--------------------------- */
 
 .dr_services {
-  padding: 0px 200px 100px 200px;
+  padding: 0px 150px 100px 150px;
 }
 
 .dr_services-list {
   display: flex;
-
-  flex-wrap: wrap;
-
   justify-content: center;
-
   gap: 20px 90px;
+  flex-wrap: wrap;
 }
 
 .dr_services-item {
-  flex: 1 1 50%; /* Кожен елемент буде займати 50% ширини контейнера, створюючи 2 колонки */
+  flex: 1 1 50%;
   max-width: 280px;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.dr_services-text-desk{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dr_services-text-mob {
+  display: none;
+}
+
+.dr_services-img {
+  margin-right: 10px;
+}
+
+/* ------------------------questions----------------------- */
+
+.dr_questions {
+  padding: 0px 150px 130px 150px;
+}
+
+.dr_questions-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dr_questions-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.dr_questions-text {
+  color: #5bb449;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.dr_questions-text {
+  display: block;
+}
+
+.dr_questions-list-mob {
+  display: none;
 }
 
 @media (max-width: 650px) {
@@ -212,7 +254,7 @@ body {
   }
 
   .dr_hero {
-    padding: 50px 25px;
+    padding: 50px 20px;
   }
 
   .dr_hero-title {
@@ -236,6 +278,32 @@ body {
 
   .dr_hero-img {
     display: none;
+  }
+
+  .dr_services {
+    padding: 0px 20px 70px 20px;
+  }
+
+  .dr_services-text-desk {
+    display: none;
+  }
+
+  .dr_services-text-mob {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .dr_questions{
+    padding: 0px 20px 130px 20px;
+  }
+
+  .dr_questions-list-desk {
+    display: none;
+  }
+
+  .dr_questions-list-mob{
+    display: block;
   }
 }
 

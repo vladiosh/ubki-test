@@ -154,6 +154,13 @@ body {
   display: none;
   color: #000000;
 }
+/* --------------------------------services--------------------------- */
+
+.dr_services{
+  padding: 0px 200px 100px 200px;
+}
+
+
 
 @media (max-width: 650px) {
   body {

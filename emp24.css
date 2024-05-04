@@ -156,11 +156,25 @@ body {
 }
 /* --------------------------------services--------------------------- */
 
-.dr_services{
+.dr_services {
   padding: 0px 200px 100px 200px;
 }
 
+.dr_services-list {
+  display: flex;
 
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 20px 90px;
+}
+
+.dr_services-item {
+  flex: 1 1 50%; /* Кожен елемент буде займати 50% ширини контейнера, створюючи 2 колонки */
+  max-width: 280px;
+  box-sizing: border-box;
+}
 
 @media (max-width: 650px) {
   body {

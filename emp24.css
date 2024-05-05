@@ -166,16 +166,17 @@ body {
  
 }
 
-.dr_form {
-  
+.dr_active-link{
+  text-decoration: none;
 }
 
-a {
-  margin-right: 10px;
-  text-decoration: none;
-  color: blue;
-  font-size: 18px;
+.dr_form-link-img {
+  margin-right: 5px; /* Додає маржин перед текстом */
+  vertical-align: middle; /* Вирівнює іконку по середині тексту */
 }
+
+
+
 
 /* --------------------------------services--------------------------- */
 

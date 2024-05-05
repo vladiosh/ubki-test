@@ -82,29 +82,31 @@
 
         <section class="dr_form">
           <div class="dr_form-box">
-            <a class="dr_form-link link" href="#" onclick="showForm(1)">
+            <a class="dr_form-link  link1" href="#" onclick="showForm(1)">
               <img
                 class="dr_form-link-img"
                 src="./images/point.svg"
                 alt=""
-                width="10px"
-                height="10px"
-              />Пошук за ІПН</a
-            >
-            <a class="dr_form-link link" href="#" onclick="showForm(2)">
-              <img
-                class="dr_form-link-img"
-                src="./images/point.svg"
-                alt=""
-                width="10px"
-                height="10px"
+                style="display: inline"
+                id="activeImg1"
               />
-              Пошук за ПІБ та датою народження</a
-            >
+              Пошук за ІПН
+            </a>
+            <a class="dr_form-link  link2" href="#" onclick="showForm(2)">
+              <img
+                class="dr_form-link-img"
+                src="./images/point.svg"
+                alt=""
+                style="display: none"
+                id="activeImg2"
+              />
+              Пошук за ПІБ та датою народження
+            </a>
+
             <form id="form1" class="dr_form-1" style="display: block">
               <h2>Форма 1</h2>
               <input type="email" placeholder="Пошук за ІПН" required />
-              <button type="submit">Відправити</button>
+              <button type="submit">Перевірити</button>
             </form>
             <form id="form2" class="dr_form-2" style="display: none">
               <h2>Форма 2</h2>
@@ -228,7 +230,9 @@
             </li>
           </ul>
         </section>
+      </main>
 
+      <footer class="dr_footer">
         <section class="dr_questions">
           <h1 class="dr_questions-title">Поширені питання</h1>
           <ul class="dr_questions-list-desk list">
@@ -292,93 +296,7 @@
             </li>
           </ul>
         </section>
-      </main>
-      <!-- 
-      <footer class="footer">
-        <div class="foot-container container">
-          <div class="foot-nav">
-            <a href="" class="footer-logo link"
-              ><span class="text">Web</span>Studio</a
-            >
-            <address>
-              <ul class="list">
-                <li class="adress-item">
-                  <a
-                    href="https://goo.gl/maps/9ainfBd7aXNSyrFP6"
-                    class="adress link"
-                    target="_blank"
-                    rel="noopener nofollow noreferrer"
-                  >
-                    г. Киев, пр-т Леси Украинки, 26</a
-                  >
-                </li>
-                <li class="adress-item">
-                  <a href="mailto:info@example.com" class="contacts link"
-                    >info@example.com</a
-                  >
-                </li>
-                <li class="adress-item">
-                  <a href="tel:+380991111111" class="contacts link"
-                    >+38 099 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="join">
-            <p class="join-title">присоединяйтесь</p>
-            <ul class="join-list list">
-              <li class="join-item">
-                <a href="" class="join-link"
-                  ><svg class="join-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join-item">
-                <a href="" class="join-link"
-                  ><svg class="join-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join-item">
-                <a href="" class="join-link"
-                  ><svg class="join-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="join-item">
-                <a href="" class="join-link"
-                  ><svg class="join-icon" width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="subscribe">
-            <p class="subscribe-text">Подпишитесь на рассылку</p>
-            <form name="subscribe-form">
-              <label for="mail" class="subscribe-label"></label>
-              <input
-                class="subscribe-input"
-                type="email"
-                name="mail"
-                id="mail"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="subscribe-button">
-                Подписаться
-                <svg class="subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
-        </div>
-      </footer> -->
+      </footer>
     </div>
 
     <div class="backdrop is-hidden" data-modal>

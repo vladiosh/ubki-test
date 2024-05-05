@@ -80,6 +80,44 @@
           />
         </section>
 
+        <section class="dr_form">
+          <div class="dr_form-box">
+            <a class="dr_form-link link" href="#" onclick="showForm(1)">
+              <img
+                class="dr_form-link-img"
+                src="./images/point.svg"
+                alt=""
+                width="10px"
+                height="10px"
+              />Пошук за ІПН</a
+            >
+            <a class="dr_form-link link" href="#" onclick="showForm(2)">
+              <img
+                class="dr_form-link-img"
+                src="./images/point.svg"
+                alt=""
+                width="10px"
+                height="10px"
+              />
+              Пошук за ПІБ та датою народження</a
+            >
+            <form id="form1" class="dr_form-1" style="display: block">
+              <h2>Форма 1</h2>
+              <input type="email" placeholder="Пошук за ІПН" required />
+              <button type="submit">Відправити</button>
+            </form>
+            <form id="form2" class="dr_form-2" style="display: none">
+              <h2>Форма 2</h2>
+              <input
+                type="email"
+                placeholder="Введіть вашу електронну адресу"
+                required
+              />
+              <button type="submit">Відправити</button>
+            </form>
+          </div>
+        </section>
+
         <section class="dr_services">
           <ul class="dr_services-list list">
             <li class="dr_services-item">
@@ -432,6 +470,6 @@
       </div>
     </div>
 
-    <script src="./js/modal.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

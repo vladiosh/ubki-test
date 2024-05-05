@@ -154,6 +154,29 @@ body {
   display: none;
   color: #000000;
 }
+
+/* --------------------form--------------------- */
+
+.dr_form{
+  padding: 0px 150px 100px 150px;
+}
+
+.dr_form-box {
+  text-align: center;
+ 
+}
+
+.dr_form {
+  
+}
+
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
 /* --------------------------------services--------------------------- */
 
 .dr_services {
@@ -175,7 +198,7 @@ body {
   align-items: center;
 }
 
-.dr_services-text-desk{
+.dr_services-text-desk {
   font-size: 18px;
   font-weight: 400;
 }
@@ -294,7 +317,7 @@ body {
     font-weight: 400;
   }
 
-  .dr_questions{
+  .dr_questions {
     padding: 0px 20px 130px 20px;
   }
 
@@ -302,7 +325,7 @@ body {
     display: none;
   }
 
-  .dr_questions-list-mob{
+  .dr_questions-list-mob {
     display: block;
   }
 }

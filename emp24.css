@@ -183,8 +183,22 @@ body {
 }
 
 .dr_form-link-img {
-  margin-right: 5px; /* Додає маржин перед текстом */
-  vertical-align: middle; /* Вирівнює іконку по середині тексту */
+  margin-right: 5px; 
+  vertical-align: middle; 
+}
+
+.dr_form-btn{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #5BB449;
+  border: none;
+  border-radius: 3px;
+  max-width: 213px;
+  height: 60px;
+  padding: 10px 20px;
+  
+  
 }
 
 /* --------------------------------services--------------------------- */

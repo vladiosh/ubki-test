@@ -1,18 +1,3 @@
-:root {
-  --primary-color: #ffffff;
-  --second-color: #f5f4fa;
-  --third-color: #2f303a;
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --contacts-text-color: rgba(255, 255, 255, 0.6);
-  --accent-first-color: #2196f3;
-  --accent-second-color: #000000;
-  --accent-third-color: #188ce8;
-  --background-soc-icon: #afb1b8;
-  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --box-shadow--accent: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 p,
 h1,
 h2,
@@ -97,8 +82,6 @@ body {
 
   font-weight: 400;
   font-size: 18px;
-
-  transition: color 250ms var(--time-function);
 }
 
 .dr_nav .link:hover,
@@ -109,7 +92,7 @@ body {
 .dr_nav-item:not(:last-child)::after {
   content: "";
   display: inline-block;
-  width: 1px;
+  width: 2px;
   height: 30px;
   background-color: #757575;
   margin-left: 20px;
@@ -165,6 +148,12 @@ body {
   text-align: center;
 }
 
+.dr_form-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .dr_active-link {
   text-decoration: none;
   color: #000000;
@@ -174,6 +163,23 @@ body {
 
 .dr_form-link {
   color: #5bb449;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dr_form-link:hover,
+.dr_form-link:focus {
+  text-decoration: none;
+}
+
+.dr_form-link-span {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  background-color: #5bb449;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .dr_form-link-img {
@@ -243,6 +249,11 @@ body {
 
 .dr_questions-list-mob {
   display: none;
+}
+
+.dr_questions-text:hover,
+.dr_questions-text:focus {
+  text-decoration: none;
 }
 
 @media (max-width: 650px) {

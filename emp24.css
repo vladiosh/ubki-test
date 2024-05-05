@@ -157,26 +157,29 @@ body {
 
 /* --------------------form--------------------- */
 
-.dr_form{
+.dr_form {
   padding: 0px 150px 100px 150px;
 }
 
 .dr_form-box {
   text-align: center;
- 
 }
 
-.dr_active-link{
+.dr_active-link {
   text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dr_form-link {
+  color: #5bb449;
 }
 
 .dr_form-link-img {
   margin-right: 5px; /* Додає маржин перед текстом */
   vertical-align: middle; /* Вирівнює іконку по середині тексту */
 }
-
-
-
 
 /* --------------------------------services--------------------------- */
 

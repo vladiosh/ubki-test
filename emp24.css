@@ -271,9 +271,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-image: url(./images/calendar.svg);
   background-position: right 10px center;
   background-repeat: no-repeat;
-  -webkit-appearance: none; 
+  -webkit-appearance: none;
   appearance: none;
-  
 }
 
 /* --------------------------------services--------------------------- */
@@ -347,11 +346,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 @media (max-width: 1015px) {
   .dr_hero {
-    padding: 0px 50px 40px 50px;
+    padding: 0px 30px 30px 30px;
   }
 
   .dr_form {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 30px 40px 30px;
   }
 
   .dr_input-1 {
@@ -359,11 +358,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .dr_services {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 30px 30px 30px;
   }
 
   .dr_questions {
-    padding: 0px 50px 30px 50px;
+    padding: 0px 30px 20px 30px;
   }
 }
 
@@ -476,5 +475,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .dr_form-link-span {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .dr_input-group-1,
+  .dr_input-group-2 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .dr_input-2,
+  .dr_input-3,
+  .dr_input-4,
+  .dr_input-5 {
+    max-width: 100%;
+    width: auto;
   }
 }

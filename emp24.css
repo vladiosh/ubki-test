@@ -313,6 +313,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .dr_questions {
   padding: 0px 150px 130px 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .dr_questions-title {
@@ -342,6 +344,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .dr_questions-text:hover,
 .dr_questions-text:focus {
   text-decoration: none;
+}
+
+.dr_questions-box {
+  max-width: 600px;
 }
 
 @media (max-width: 1015px) {

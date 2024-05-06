@@ -189,7 +189,6 @@ body {
 }
 
 .dr_form-1 {
-  display: block;
   text-align: center;
   margin: 0 auto;
   width: 100%;
@@ -220,7 +219,7 @@ body {
   background-color: #5bb449;
   border: none;
   border-radius: 0px 3px 3px 0px;
-  max-width: 213px;
+  width: 213px;
   height: 60px;
   padding: 10px 20px;
 
@@ -294,6 +293,28 @@ body {
 .dr_questions-text:hover,
 .dr_questions-text:focus {
   text-decoration: none;
+}
+
+@media (max-width: 1015px) {
+  .dr_hero {
+    padding: 0px 50px 40px 50px;
+  }
+
+  .dr_form {
+    padding: 0px 50px 50px 50px;
+  }
+
+  .dr_input-1 {
+    width: 300px;
+  }
+
+  .dr_services {
+    padding: 0px 50px 50px 50px;
+  }
+
+  .dr_questions {
+    padding: 0px 50px 30px 50px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -384,15 +405,29 @@ body {
     display: block;
   }
 
-  .dr_form{padding: 0px 20px 65px 20px;}
+  .dr_form {
+    padding: 0px 20px 65px 20px;
+  }
 
   .dr_input-1 {
     margin-bottom: 20px;
     border-radius: 3px;
   }
 
-  .dr_form-btn{
+  .dr_form-btn {
     border-radius: 3px;
+    width: 100%;
+  }
+
+  .dr_input-1 {
+    width: 100%;
+  }
+
+
+
+  .dr_form-link-span {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 

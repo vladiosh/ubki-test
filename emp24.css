@@ -203,7 +203,8 @@ body {
 
 .dr_input-group-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
 }
 
 .dr_input {
@@ -231,8 +232,9 @@ body {
 .dr_input-2,
 .dr_input-3,
 .dr_input-4 {
-  max-width: 215px;
+  width: 100%;
   border-radius: 3px;
+  max-width: 215px;
 }
 
 .dr_input-5 {
@@ -257,6 +259,21 @@ body {
 
 .dr_form-btn-2 {
   border-radius: 3px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.dr_input-group-2 input[type="date"] {
+  position: relative; /* Щоб псевдоелементи позиціонувалися відносно цього елемента */
+
+  padding-right: 40px; /* Резервування місця під іконку */
+  background-image: url(./images/calendar.svg);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  -webkit-appearance: none; /* Відключення стандартного вигляду */
+  appearance: none;
 }
 
 /* --------------------------------services--------------------------- */

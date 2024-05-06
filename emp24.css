@@ -194,21 +194,50 @@ body {
   width: 100%;
 }
 
-.dr_input-1 {
-  background-image: url("./images/search.svg");
-  background-repeat: no-repeat;
-  background-position: 10px center;
-  max-width: 100%;
-  width: 470px;
-  height: 60px;
+.dr_input-group-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  gap: 15px;
+}
+
+.dr_input-group-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dr_input {
   border: 1px solid #aeaeae;
-  padding: 15px 15px 15px 40px;
+  padding: 15px;
   box-sizing: border-box;
   display: inline-block;
   border-radius: 3px 0px 0px 3px;
   vertical-align: middle;
   font-size: 16px;
   font-weight: 400;
+  height: 60px;
+  color: #aeaeae;
+}
+
+.dr_input-1 {
+  background-image: url("./images/search.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  max-width: 100%;
+  width: 470px;
+  padding: 15px 15px 15px 40px;
+}
+
+.dr_input-2,
+.dr_input-3,
+.dr_input-4 {
+  max-width: 215px;
+  border-radius: 3px;
+}
+
+.dr_input-5 {
+  width: 480px;
+  border-radius: 3px;
 }
 
 .dr_form-btn {
@@ -223,7 +252,11 @@ body {
   height: 60px;
   padding: 10px 20px;
 
-  vertical-align: middle; /* Вирівнює кнопку по вертикалі з інпутом */
+  vertical-align: middle;
+}
+
+.dr_form-btn-2 {
+  border-radius: 3px;
 }
 
 /* --------------------------------services--------------------------- */
@@ -409,7 +442,7 @@ body {
     padding: 0px 20px 65px 20px;
   }
 
-  .dr_input-1 {
+  .dr_input {
     margin-bottom: 20px;
     border-radius: 3px;
   }
@@ -423,11 +456,8 @@ body {
     width: 100%;
   }
 
-
-
   .dr_form-link-span {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
-

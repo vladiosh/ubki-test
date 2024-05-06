@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -109,9 +109,9 @@
             </div>
 
             <form id="form1" class="dr_form-1" style="display: block">
-              <label for="searchIPN">Пошук за ІПН:</label>
+              <label for="searchIPN"></label>
               <input
-                class="dr_input-1"
+                class="dr_input dr_input-1"
                 id="searchIPN"
                 type="search"
                 placeholder="Пошук за ІПН"
@@ -120,12 +120,46 @@
             </form>
 
             <form id="form2" class="dr_form-2" style="display: none">
-              <h2>Форма 2</h2>
-              <input
-                type="email"
-                placeholder="Введіть вашу електронну адресу"
-                required
-              /><button class="dr_form-btn" type="submit">Відправити</button>
+              <div class="dr_input-group-1">
+                <label for="surnameInput"></label>
+                <input
+                  class="dr_input dr_input-2"
+                  id="surnameInput"
+                  type="text"
+                  placeholder="Введіть прізвище"
+                  required
+                />
+
+                <label for="nameInput"></label>
+                <input
+                  class="dr_input dr_input-3"
+                  id="nameInput"
+                  type="text"
+                  placeholder="Введіть ім’я"
+                  required
+                />
+                <label for="patronymicInput"></label>
+                <input
+                  class="dr_input dr_input-4"
+                  id="patronymicInput"
+                  type="text"
+                  placeholder="Введіть по батькові"
+                  required
+                />
+              </div>
+              <div class="dr_input-group-2">
+                <label for="dateInput"></label>
+                <input
+                  class="dr_input dr_input-5"
+                  id="dateInput"
+                  type="date"
+                  placeholder="дд.мм.рррр"
+                  required
+                />
+                <button class="dr_form-btn dr_form-btn-2" type="submit">
+                  Перевірити
+                </button>
+              </div>
             </form>
           </div>
         </section>
@@ -308,7 +342,6 @@
         </section>
       </footer>
     </div>
-
 
     <script src="./js/index.js"></script>
   </body>

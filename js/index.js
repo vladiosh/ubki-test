@@ -32,14 +32,3 @@ function toggleForms(
 }
 
 
-// Припустимо, що у вас є елемент <input> з класом 'date-input'
-document.querySelector('.dr_input-group-2 input[type="date"]').addEventListener('click', function(event) {
- const inputWidth = this.offsetWidth;
- const clickX = event.offsetX;
-
-  // Перевіряємо, чи клік був у області іконки (припустимо, іконка на 40px від правого краю)
-  if (clickX > inputWidth - 40) {
-      // Відкриваємо календар
-      this.showPicker(); // це новий метод у деяких браузерах
-  }
-});

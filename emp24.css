@@ -214,7 +214,7 @@ body {
   display: inline-block;
   border-radius: 3px 0px 0px 3px;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   height: 60px;
   color: #aeaeae;
@@ -566,5 +566,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .dr_questions-text {
     font-size: 16px;
+  }
+  
+
+  .dr_hero-title{
+    font-size: 20px;
   }
 }

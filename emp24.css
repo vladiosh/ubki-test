@@ -340,8 +340,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .dr_questions-content {
-  position: relative; /* Додаємо позицію relative для створення контексту для ::before */
-  padding-left: 20px; /* Додаємо відступ для тексту, щоб не перекривати лінію */
+  position: relative; 
+  padding-left: 20px; 
 }
 
 .dr_questions-content::before {

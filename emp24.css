@@ -340,8 +340,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .dr_questions-content {
-  position: relative; 
-  padding-left: 20px; 
+  position: relative;
+  padding-left: 20px;
 }
 
 .dr_questions-content::before {
@@ -518,9 +518,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .dr_questions-text {
     font-size: 18px;
   }
-  
 
-  .dr_questions-content{
+  .dr_questions-content {
     font-size: 14px;
   }
 }

@@ -331,29 +331,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #5bb449;
   font-size: 21px;
   font-weight: 600;
-  text-decoration: none;
-  border-bottom: dotted 2px #5bb449;
-
-
-
-  line-height: 1.4;
+  text-decoration: underline dotted 2px #5bb449;
+  line-height: 1.5;
   cursor: pointer;
   display: inline;
-  text-decoration: none;
-}
+  text-underline-offset: 4px;
+  margin-bottom: 10px;
 }
 
-.dr_questions-text {
-  display: block;
+.dr_questions-content {
+  position: relative; /* Додаємо позицію relative для створення контексту для ::before */
+  padding-left: 20px; /* Додаємо відступ для тексту, щоб не перекривати лінію */
+}
+
+.dr_questions-content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #757575;
 }
 
 .dr_questions-list-mob {
   display: none;
-}
-
-.dr_questions-text:hover,
-.dr_questions-text:focus {
-  text-decoration: none;
 }
 
 .dr_questions-box {
@@ -515,6 +517,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   .dr_questions-text {
     font-size: 18px;
+  }
+  
+
+  .dr_questions-content{
+    font-size: 14px;
   }
 }
 

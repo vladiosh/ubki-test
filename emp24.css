@@ -331,6 +331,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #5bb449;
   font-size: 21px;
   font-weight: 600;
+  text-decoration: none;
+  border-bottom: dotted 2px #5bb449;
+
+
+
+  line-height: 1.4;
+  cursor: pointer;
+  display: inline;
+  text-decoration: none;
+}
 }
 
 .dr_questions-text {
@@ -567,9 +577,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .dr_questions-text {
     font-size: 16px;
   }
-  
 
-  .dr_hero-title{
+  .dr_hero-title {
     font-size: 20px;
   }
 }

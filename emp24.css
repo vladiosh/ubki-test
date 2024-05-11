@@ -435,7 +435,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .dr_services {
-    padding: 0px 20px 70px 20px;
+    padding: 0px 20px 50px 20px;
   }
 
   .dr_services-text-desk {
@@ -449,7 +449,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .dr_questions {
-    padding: 0px 20px 130px 20px;
+    padding: 0px 20px 50px 20px;
   }
 
   .dr_questions-list-desk {
@@ -461,7 +461,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
 
   .dr_form {
-    padding: 0px 20px 65px 20px;
+    padding: 0px 20px 50px 20px;
   }
 
   .dr_input {
@@ -497,5 +497,74 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .dr_input-5 {
     max-width: 100%;
     width: auto;
+  }
+
+  .dr_questions-title {
+    font-size: 20px;
+  }
+
+  .dr_questions-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .dr_active-link {
+    font-size: 14px;
+  }
+
+  .dr_form-link {
+    font-size: 14px;
+  }
+
+  .dr_services-text-mob {
+    font-size: 14px;
+  }
+  .dr_nav-text {
+    font-size: 14px;
+  }
+
+  .dr_hero {
+    padding: 30px 20px;
+  }
+  .dr_form,
+  .dr_services,
+  .dr_questions {
+    padding: 0px 20px 30px 20px;
+  }
+
+  .dr_form-link-box {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .dr_form-link-span {
+    display: none;
+  }
+
+  .dr_input {
+    padding: 10px;
+    font-size: 14px;
+    height: 45px;
+  }
+
+  .dr_input-1 {
+    padding: 10px 10px 10px 35px;
+    font-size: 14px;
+    height: 45px;
+  }
+
+  .dr_form-btn {
+    font-size: 16px;
+    padding: 5px 10px;
+    height: 45px;
+  }
+
+  .dr_questions-title {
+    font-size: 18px;
+  }
+
+  .dr_questions-text {
+    font-size: 16px;
   }
 }

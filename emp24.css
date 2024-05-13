@@ -19,7 +19,6 @@ body {
   background-color: #e5e5e5;
   font-family: "Open Sans";
   padding: 15px;
-
 }
 
 .dr_logo-box {
@@ -388,7 +387,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media (max-width: 650px) {
   body {
     padding: 15px;
-    
   }
 
   .dr_logo-box {
@@ -533,14 +531,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media screen and (max-width: 350px) {
-
   body {
     overflow-x: scroll;
     min-width: 350px;
-  }   
-
-
-  
+  }
 
   .dr_active-link {
     font-size: 14px;
@@ -605,4 +599,3 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 20px;
   }
 }
-

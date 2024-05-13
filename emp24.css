@@ -525,6 +525,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 350px) {
+
+  body {
+    overflow-x: scroll;
+    min-width: 350px;
+  }   
+
   .dr_active-link {
     font-size: 14px;
   }
@@ -588,3 +594,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 20px;
   }
 }
+
